@@ -65,8 +65,8 @@ src/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/chat-app.git
-   cd chat-app
+   git clone https://github.com/Bhavya251/zerohour-springboot-websocket-thymeleaf.git
+   cd zerohour
    ```
 
 2. Build and run:
@@ -75,16 +75,10 @@ src/
    mvn spring-boot:run
    ```
 
-   or
-
-   ```bash
-   ./gradlew bootRun
-   ```
-
 3. Open the app in your browser:
 
    ```
-   http://localhost:8080
+   http://localhost:8080/chat
    ```
 
 ---
