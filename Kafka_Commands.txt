@@ -6,8 +6,6 @@ Download the binary (Scala 2.13, latest Kafka 3.x+).
 
 Extract it to C:\kafka (or wherever you want).
 
-
-
 2. cd C:\kafka
     bin\windows\kafka-storage.bat random-uuid
 
