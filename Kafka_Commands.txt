@@ -1,0 +1,19 @@
+1. Download Kafka
+
+Go to 👉 https://kafka.apache.org/downloads
+
+Download the binary (Scala 2.13, latest Kafka 3.x+).
+
+Extract it to C:\kafka (or wherever you want).
+
+
+
+2. cd C:\kafka
+    bin\windows\kafka-storage.bat random-uuid
+
+3. Copy this UUID which is generated
+
+4. bin\windows\kafka-storage.bat format -t <UUID> -c config\kraft\server.properties
+
+5. bin\windows\kafka-server-start.bat config\kraft\server.properties
+
